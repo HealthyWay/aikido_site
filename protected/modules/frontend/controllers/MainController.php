@@ -12,9 +12,9 @@
  */
 class MainController extends Controller
 {
-        //public $layout = '//frontend/layouts/frontSingle';
+        public $layout = '/layouts/frontMain';
 	public function actionIndex()
 	{
-            $this->render('index');
+            $this->render('index', array('model' => new ModelSubscribers));
 	}
 }
