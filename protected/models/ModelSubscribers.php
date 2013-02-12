@@ -63,7 +63,7 @@ class ModelSubscribers extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'name' => 'Name',
+			'name' => 'Имя',
 			'email' => 'Email',
 		);
 	}
